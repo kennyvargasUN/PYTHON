@@ -8,9 +8,9 @@ def promedio_arreglo(x):
     for i in range(0,len(x)):
         p += x[i]
 
-    return p/len(x)
+    return print(f"el promedio del arreglo es {p/len(x)}")
 
-print(promedio_arreglo([5,4,7,8,5]))    
+   
 
 #2. Desarrolle un algoritmo que calcule el punto de dos arreglos de numeros enteros que sean de la misma longitud
 
@@ -21,6 +21,16 @@ def product_punto(v,w):
         raise ValueError ("los arreglos no son de la misma longitud")
     
     producto = sum(v1 * w1 for v1, w1 in zip(v,w))
-    return producto
+    return print(f"el punto de los arreglos es ", producto)
 
-print(product_punto([1,2,3],[4,5,6]))
+
+
+def main():
+    
+     promedio_arreglo([5,4,7,8,5])
+     
+     product_punto([1,2,3],[4,5,6])
+     
+     
+if __name__ == "__main__":
+    main()
