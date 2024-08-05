@@ -13,3 +13,6 @@ salida ejercicio # 3
 c:/Users/ESTUDIANTE/Downloads/EjeircciosMatrices.py
 
 El resultado del producto directo de los dos arreglos es [4, 12, 30, 80] 
+
+Integrantes: Dillan Diaz Meza, Kenny vargas Ruiz 
+
